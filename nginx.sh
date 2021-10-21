@@ -15,7 +15,7 @@ apt autoremove
 echo Installing NGINX
 
 apt clean all && sudo apt update && sudo apt dist-upgrade
-apt install NGINX
+apt install nginx
 
 echo Installing and setting up UFW
 

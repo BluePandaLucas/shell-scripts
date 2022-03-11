@@ -17,9 +17,11 @@ echo "[1] Uninstall Wings"
 
 read option
 
-if option="0" then
+if option = "0" 
+then
   echo "Selected option Install Wings"
-elif option="1" then
+elif option = "1" 
+then
   echo "Stopping wings service."
   systemctl stop wings
   echo "Removing configuration files and service."
